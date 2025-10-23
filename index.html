@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imraj's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(10px);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      .theme-toggle {
+        animation: float 3s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="front-page">
+      <nav>
+        <ul class="first-box">
+          <li class="nav_portion_1">About me</li>
+          <li class="nav_portion_2">Projects</li>
+        </ul>
+        <ul class="second-box">
+          <li><span class="name">Imraj</span> Rabbani</li>
+        </ul>
+        <ul class="third-box">
+          <li>
+            <a href="mailto:imrajrabbani2003@gmail.com">Hit me Up</a>
+          </li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle">☀️ Light Mode</button>
+      </nav>
+
+      <p class="tagline">
+        ❝The goal is not to be better than others, <br />
+        but to be better than your past self.❞ <br />
+        <em>— Dalai Lama</em>
+      </p>
+    </div>
+
+    <section class="imraj">
+      <img class="image" src="assets/imraj.jpg" alt="Imraj Rabbani" />
+      <div class="myself">
+        <h1 class="about-text"><strong class="about-text">About Me</strong></h1>
+        <p class="about-text para">
+          Hey there! I'm Imraj, a 4th-year Computer Science student at
+          <a href="https://www.bracu.ac.bd/">BRAC University </a> and part-time
+          QA at <a href="https://erp2all.com">ERP2ALL</a> . I'm 22 and hail from
+          Chattogram, Bangladesh. I love exploring how things work whether it's
+          a piece of code, a design, or an entire system and finding ways to
+          make them better. My main objective of taking
+          <a href="https://discord.gg/fc8asSgk">CSE391</a> is to create a final
+          year project that I can show in my resume.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <h1 class="heading">Skills</h1>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>MySQL</li>
+        <li>Video Editing</li>
+      </ul>
+    </section>
+
+    <section class="education-section">
+      <h1 class="heading">Education</h1>
+      <table class="education-table">
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Degree / Level</th>
+            <th>Year</th>
+            <th>Results</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BRAC University</td>
+            <td>B.Sc. in Computer Science</td>
+            <td>2022 - Present</td>
+            <td>CGPA: 3.77</td>
+          </tr>
+
+          <tr>
+            <td>Mastermind International School</td>
+            <td>A Levels</td>
+            <td>2019 - 2021</td>
+            <td>
+              Grades: 3A, 1B <br />
+              <small
+                >Focused on Mathematics, Physics, Chemistry, and Biology.</small
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>British Council</td>
+            <td>IGCSE</td>
+            <td>2018 - 2019</td>
+            <td>
+              Grades: 3A*, 3A <br />
+              <small
+                >Built a strong academic foundation in STEM subjects and
+                English.</small
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              Received merit-based scholarship for excellent result in ICGSE and
+              A levels and for maintaining CGPA > 3.70.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="movies-section">
+      <h1 class="heading" style="text-align: left; padding-left: 18%">
+        My Top 10 Favourite Movies
+      </h1>
+      <ol class="movies-list">
+        <li>Interstellar</li>
+        <li>Inception</li>
+        <li>Shutter Island</li>
+        <li>Parasite</li>
+        <li>The Shawshank Redemption</li>
+        <li>Hera Pheri</li>
+        <li>Phir Hera Pheri</li>
+        <li>De Dana Dan</li>
+        <li>Golmaal</li>
+        <li>Dangal</li>
+      </ol>
+    </section>
+
+    <div class="middle">
+      <div></div>
+      <strong class="heading Projects"> Projects</strong>
+    </div>
+    <h3 class="project-type">Front-End</h3>
+    <main class="project">
+      <div class="pictures">
+        <div>
+          <img
+            class="project_images"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png"
+            alt=""
+          />
+        </div>
+        <a class="desc" href="https://imraj-rabbani.github.io/FB-login-page/"
+          >Facebook Login UI Clone</a
+        ><br />
+      </div>
+      <div>
+        <div>
+          <img class="project_images" src="assets/microsoft.jpg" alt="" />
+        </div>
+        <a
+          class="desc"
+          href="https://imraj-rabbani.github.io/Microsoft-Landing-Page/"
+          >Microsoft Login UI Clone</a
+        >
+      </div>
+      <div>
+        <div>
+          <img class="project_images" src="assets/simon_2.png" alt="" />
+        </div>
+        <a class="desc" href="https://imraj-rabbani.github.io/Simon-Game/"
+          >Simon Game</a
+        >
+      </div>
+      <div>
+        <div>
+          <img class="project_images" src="assets/tic_tac_toe.png" alt="" />
+        </div>
+        <a class="desc" href="https://imraj-rabbani.github.io/Tic-Tac-Toe/"
+          >Tic Tac Toe</a
+        >
+      </div>
+      <div>
+        <div>
+          <img class="project_images" src="assets/table_tennis.webp" alt="" />
+        </div>
+        <a
+          class="desc"
+          href="https://imraj-rabbani.github.io/Table-Tennis-Scorecard/"
+          >Table Tennis Scorecard</a
+        >
+      </div>
+      <div>
+        <div>
+          <img class="project_images" src="assets/recipe.png" alt="" />
+        </div>
+        <a class="desc" href="https://imraj-rabbani.github.io/Recipe-App/"
+          >Recipe-App</a
+        >
+      </div>
+    </main>
+    <h3 class="project-type">Back-End</h3>
+    <main class="project">
+      <div class="pictures">
+        <div>
+          <img class="project_images" src="assets/e-commerce.jpeg" alt="" />
+        </div>
+        <a class="desc" href="https://github.com/Imraj-Rabbani/Dreamcart"
+          >E-commerce Website</a
+        ><br />
+      </div>
+      <div class="pictures">
+        <div>
+          <img class="project_images" src="assets/appointment.png" alt="" />
+        </div>
+        <a class="desc" href="https://github.com/Imraj-Rabbani/DoctorAid"
+          >Doctor Appointment App</a
+        ><br />
+      </div>
+    </main>
+
+    <footer class="footer-info">
+      <p id="page-info"></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
